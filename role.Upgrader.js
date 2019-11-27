@@ -9,7 +9,7 @@
 var Upgrader = {
 
     run: function (creep) {
-
+        console.log('HI');
         if (creep.store.getFreeCapacity() > 50) {
 
 
